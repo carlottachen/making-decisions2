@@ -41,6 +41,13 @@ console.log(backpack);
 
 let backpack2 = backpack.splice(2, 3);
 console.log(backpack, backpack2);
+console.log(backpack2[0]); //look at first item in backpack2 array
+
+//loop through and display each item in backpack
+//by puttint 'let i = 0', i is contained to this code block
+for(let i = 0; i < backpack.length; i++){
+	console.log(backpack[i]);
+}
 
 
 
